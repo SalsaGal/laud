@@ -1,0 +1,12 @@
+[package]
+name = "laud"
+description = "A FOSS node-based audio editor"
+version = "0.1.0"
+edition = "2018"
+
+[package.metadata.bundle]
+name = "Laud"
+identifier = "coryphee.laud"
+
+[dependencies]
+eframe = "0.13.1"
