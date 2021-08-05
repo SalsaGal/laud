@@ -1,0 +1,23 @@
+#- b!
+	cargo build
+#/
+
+#-
+	cargo run
+#/
+
+#feedback b
+	cargo bundle
+#/
+
+#feedback r
+	open "target/debug/bundle/osx/Laud.app"
+#/
+
+#release b
+	cargo bundle --release
+#/
+
+#release r
+	open target/release/bundle/osx/Laud.app
+#/
